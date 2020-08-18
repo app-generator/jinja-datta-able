@@ -22,7 +22,7 @@ With performance, Datta Able rendering is fast in all major browser. It is passe
 
 <br />
 
-![Jinja DattaAble - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-dattaable-dashboard/master/media/jinja-template-dattaable-dashboard-screen.png)
+![Jinja DattaAble - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-dattaable-dashboard/master/media/jinja-template-dattaable-dashboard-intro.gif)
 
 <br />
 
