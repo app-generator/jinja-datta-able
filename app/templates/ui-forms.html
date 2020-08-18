@@ -2,358 +2,317 @@
 
 {% block title %} UI Forms {% endblock %} 
 
-<!-- Specific Page CSS goes HERE  -->
+<!-- Specific CSS goes HERE -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <!-- Hero -->
-    <div class="section-header pb-6 bg-primary overflow-hidden text-center border-bottom border-light">
-    <div class="container z-2">
-        <div class="row mb-4 justify-content-center">
-            <div class="col-12 col-md-8 col-lg-7">
-                <h1 class="display-3 mb-4">Forms</h1>
-                <p class="lead">Examples for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-6">
-                <div class="alert shadow-inset">
-                    <div class="d-flex">
-                        <div class="alert-inner--text">
-                            <span class="icon text-danger icon-xs mr-2 mr-md-1"><span class="fas fa-file-alt"></span></span>
-                            <a target="_blank" href="https://themesberg.com/docs/neumorphism-ui/components/forms/">See our Documentation</a> for a detailed technical explanation.
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Form Elements</h5>
                         </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="javascript:">Form Componants</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:">Form Elements</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <!-- End of Hero -->
-
-    <div class="section section-lg bg-primary text-dark pb-0">
-    <div class="container">
-        <!-- Title -->
-        <div class="row">
-            <div class="col">
-                <h2 class="h5">Default Forms</h2>
-            </div>
-        </div>
-        <!-- End of Title -->
-    </div>
-    </div>
-
-    <!-- Section -->
-    <div class="section section-lg pt-4">
-        <div class="container">
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Form -->
-                    <div class="form-group mb-4">
-                        <label for="exampleInputEmail67">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail67" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label for="exampleInputIcon1">Icon Left</label>
-                        <div class="input-group mb-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><span class="fas fa-search"></span></span>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+            <div class="page-wrapper">
+                <!-- [ Main Content ] start -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Basic Componant</h5>
                             </div>
-                            <input class="form-control" id="exampleInputIcon1" placeholder="Icon Left" type="text" aria-label="Input with icon left">
-                        </div>
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label for="exampleInputIcon2">Icon Right</label>
-                        <div class="input-group mb-4">
-                            <input class="form-control" id="exampleInputIcon2" placeholder="Icon Right" aria-label="Input group" type="text">
-                            <div class="input-group-append">
-                                <span class="input-group-text"><span class="fas fa-search"></span></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <div class="input-group mb-4">
-                            <input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password" aria-label="Password">
-                            <div class="input-group-append">
-                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Form -->
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Form -->
-                    <fieldset disabled>
-                        <legend class="h6">Disabled Inputs</legend>
-                        <div class="form-group">
-                            <label for="disabledTextInput">Name</label>
-                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                        </div>
-                        <div class="form-group">
-                            <label for="disabledSelect">Disabled select menu</label>
-                            <select id="disabledSelect" class="form-control">
-                            <option>Disabled select</option>
-                            </select>
-                        </div>
-                    </fieldset>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Country</label>
-                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                            <option selected>Choose...</option>
-                            <option value="1">United States</option>
-                            <option value="2">Germany</option>
-                            <option value="3">Canada</option>
-                        </select>
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1" rows="4"></textarea>
-                    </div>
-                    <!-- End of Form -->
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label for="validationServer01">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-                        <div class="valid-feedback">
-                        Looks good!
-                        </div>                
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="form-group mb-4">
-                        <label for="validationServerUsername">Username</label>
-                        <input type="text" class="form-control is-invalid" id="validationServerUsername" required>
-                        <div class="invalid-feedback">
-                        Please choose a username.
-                        </div>               
-                    </div>
-                    <!-- End of Form -->
-                    <!-- Form -->
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="customFile" aria-label="File upload">
-                        <label class="custom-file-label" for="customFile">Choose file</label>
-                    </div>
-                    <!-- End of Form -->
-                </div>
-            </div>
-            <h3 class="h5">Range Sliders</h3>
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-lg-6 col-sm-6">
-                    <!-- Simple slider -->
-                    <div class="input-slider-container">
-                        <div id="input-slider-forms" class="input-slider" data-range-value-min="100" data-range-value-max="500"></div>
-                        <!-- Input slider values -->
-                        <div class="row mt-3 d-none">
-                            <div class="col-6">
-                                <span class="range-slider-value" data-range-value-low="200"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Slider -->
-                </div>
-                <!-- Range slider -->
-                <div class="col-lg-6 col-sm-6">
-                    <!-- Range slider container -->
-                    <div id="input-slider-range" data-range-value-min="100" data-range-value-max="500"></div>
-                    <!-- Range slider values -->
-                    <div class="row d-none">
-                        <div class="col-6">
-                            <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low"></span>
-                        </div>
-                        <div class="col-6 text-right">
-                            <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high"></span>
-                        </div>
-                    </div>
-                    <!-- End of range slider values -->
-                </div>
-            </div>
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-3 col-lg-2">
-                    <!-- Range slider container -->
-                    <div id="input-slider-vertical-1" data-range-value-min="100" data-range-value-max="500"></div>
-                    <!-- Range slider values -->
-                    <div class="row d-none">
-                        <div class="col-6">
-                            <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low-3"></span>
-                        </div>
-                        <div class="col-6 text-right">
-                            <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high-3"></span>
-                        </div>
-                    </div>
-                    <!-- End of range slider values -->
-                </div>
-                <div class="col-3 col-lg-2">
-                    <!-- Range slider container -->
-                    <div id="input-slider-vertical-2" data-range-value-min="100" data-range-value-max="500"></div>
-                    <!-- Range slider values -->
-                    <div class="row d-none">
-                        <div class="col-6">
-                            <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low-4"></span>
-                        </div>
-                        <div class="col-6 text-right">
-                            <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high-4"></span>
-                        </div>
-                    </div>
-                    <!-- End of range slider values -->
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Checkboxes -->
-                    <div class="mb-3">
-                        <span class="h6 font-weight-bold">Checkboxes Square</span>
-                    </div>
-                    <div class="form-check square-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck111" checked>
-                        <label class="form-check-label" for="defaultCheck111">
-                        Active checkbox
-                        </label>
-                    </div>
-                    <div class="form-check square-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck222">
-                        <label class="form-check-label" for="defaultCheck222">
-                        Option 1 
-                        </label>
-                    </div>
-                    <div class="form-check square-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck333">
-                        <label class="form-check-label" for="defaultCheck333">
-                            Option 2 
-                        </label>
-                    </div>
-                    <div class="form-check square-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck444" disabled>
-                        <label class="form-check-label" for="defaultCheck444">
-                        Disabled checkbox
-                        </label>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <!-- Checkboxes -->
-                    <div class="mb-3">
-                        <span class="h6 font-weight-bold">Checkboxes Round</span>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck555" checked>
-                        <label class="form-check-label" for="defaultCheck555">
-                        Active checkbox
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck666">
-                        <label class="form-check-label" for="defaultCheck666">
-                            Option 1 
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck777">
-                        <label class="form-check-label" for="defaultCheck777">
-                            Option 2 
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck888" disabled>
-                        <label class="form-check-label" for="defaultCheck888">
-                        Disabled checkbox
-                        </label>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
-                    <!-- Radio -->
-                    <fieldset>
-                        <legend class="h6">Radios</legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                            <label class="form-check-label" for="exampleRadios1">
-                            Default radio
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                            <label class="form-check-label" for="exampleRadios2">
-                            Second default radio
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-                            <label class="form-check-label" for="exampleRadios3">
-                            Disabled radio
-                            </label>
-                        </div>
-                        <!-- End of Radio -->
-                    </fieldset>
-                </div>
-                <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
-                    <div class="mb-3">
-                        <span class="h6 font-weight-bold">Switches</span>
-                    </div>
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                        <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                        </div>
-                        <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
-                        <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-12 col-md-4">
-                    <!-- Form -->
-                    <div class="form-group">
-                        <label class="h6" for="exampleInputDate1">Choose a date</label>
-                        <div class="input-group mb-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
-                            </div>
-                            <input class="form-control datepicker" id="exampleInputDate1" placeholder="Select date" type="text" aria-label="Date with icon left">
-                        </div>
-                    </div>
-                    <!-- End of Form -->
-                </div>
-                <div class="col-12 col-md-8">
-                    <!-- Form -->
-                    <div class="input-daterange datepicker row align-items-center">
-                        <div class="col">
-                            <label class="h6" for="exampleInputDate2">From</label>
-                            <div class="form-group">
-                                <div class="input-group input-group-border">
-                                    <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
-                                    <input class="form-control datepicker" id="exampleInputDate2" placeholder="Start date" type="text">
+                            <div class="card-body">
+                                <h5>Form controls</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <form>
+                                            <div class="form-group">
+                                                <label>Text</label>
+                                                <input type="text" class="form-control" placeholder="Text">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlSelect1">Example select</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <h5 class="mt-5">Sizing</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input class="mb-3 form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                                        <input class="mb-3 form-control" type="text" placeholder="Default input">
+                                        <input class="mb-3 form-control form-control-sm" type="text" placeholder=".form-control-sm">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="mb-3 form-control form-control-lg">
+                                            <option>Large select</option>
+                                        </select>
+                                        <select class="mb-3 form-control">
+                                            <option>Default select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <h5 class="mt-5">Inline</h5>
+                                <hr>
+                                <form class="form-inline">
+                                    <div class="form-group mb-2">
+                                        <label for="staticEmail2" class="sr-only">Email</label>
+                                        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+                                    </div>
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <label for="inputPassword2" class="sr-only">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                                </form>
+                                <h3 class="mt-5">Checkboxes and Radios</h3>
+                                <h5 class="mt-3">Checkboxes</h5>
+                                <hr>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5 class="mt-5">Radios</h5>
+                                        <hr>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+                                        </div>
+                                        <h5 class="mt-5">Inline</h5>
+                                        <hr>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline1">Toggle this custom radio</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                            <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-5">Range</h5>
+                                        <hr>
+                                        <label for="customRange1">Example range</label>
+                                        <input type="range" class="custom-range" id="customRange1">
+                                        <label for="customRange2">Example range</label>
+                                        <input type="range" class="custom-range" min="0" max="5" id="customRange2">
+                                        <label for="customRange3">Example range</label>
+                                        <input type="range" class="custom-range" min="0" max="5" step="0.5" id="customRange3">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="form-group">
-                                <label class="h6" for="exampleInputDate3">To</label>
-                                <div class="input-group input-group-border">
-                                    <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
-                                    <input class="form-control datepicker" id="exampleInputDate3" placeholder="End date" type="text">
+                        <!-- Input group -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Input Group</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                    </div>
+                                </div>
+                                <label for="basic-url">Your vanity URL</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                                <h5 class="mt-5">Sizing</h5>
+                                <hr>
+                                <div class="input-group input-group-sm mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                                </div>
+                                <h5 class="mt-5">Button Addons</h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-primary" type="button">Button</button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">Button</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-primary" type="button">Button</button>
+                                                <button class="btn btn-secondary" type="button">Button</button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-secondary" type="button">Button</button>
+                                                <button class="btn btn-primary" type="button">Button</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-5">Buttons With Dropdowns</h5>
+                                        <hr>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#!">Action</a>
+                                                    <a class="dropdown-item" href="#!">Another action</a>
+                                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                                    <div role="separator" class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#!">Separated link</a>
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#!">Action</a>
+                                                    <a class="dropdown-item" href="#!">Another action</a>
+                                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                                    <div role="separator" class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#!">Separated link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-5">Segmented Buttons</h5>
+                                        <hr>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button type="button" class="btn btn-secondary">Action</button>
+                                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#!">Action</a>
+                                                    <a class="dropdown-item" href="#!">Another action</a>
+                                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                                    <div role="separator" class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#!">Separated link</a>
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                            <div class="input-group-append">
+                                                <button type="button" class="btn btn-secondary">Action</button>
+                                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#!">Action</a>
+                                                    <a class="dropdown-item" href="#!">Another action</a>
+                                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                                    <div role="separator" class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#!">Separated link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End of Form -->
                 </div>
+                <!-- [ Main Content ] end -->
             </div>
         </div>
     </div>
-    <!-- End of Section -->
+</div>
 
 {% endblock content %}
 

@@ -1,8 +1,8 @@
-# [Jinja2 Template](https://theme-jinja2.appseed.us/)
+# [Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **Neumorphism UI** (Free Version) by **Themesberg**
+- UI Kit: **DattaAble** (Free Version) by **CodedThemes**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - **[MIT License](https://github.com/app-generator/license-mit)**
 - Free support via **Github** issues tracker
@@ -10,23 +10,19 @@
 
 > Links
 
-- [Template Jinja2 Theme](https://theme-jinja2.appseed.us/) - LIVE Demo
+- [Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/) - LIVE Demo
 
 <br />
 
-## UI Kit - [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap)
+## UI Kit - [DattaAble (Free Version)](https://codedthemes.com/item/datta-able-bootstrap-lite/?ref=appseed)
 
-*Vendor Notes* - Start developing neumorphism (aka. neomorphism) inspired layouts, web apps and pages with this free UI Kit. It features over 200 individual components and 5 example pages. Neumorphism UI makes use of the original neumorphism design specs.
-All components are perfectly in compliance with the neumorphism design trend making use of the specific shadow and coloring attributes. Neumorphism UI also comes with the shadow inset style add-on. Only some neumorphic components that are included are timelines, profile cards, pricing cards, call to action sections and many more.
+*Vendor Notes* - Datta Able Bootstrap Lite is the most stylised Bootstrap 4 Lite Admin Template, around all other Lite/Free admin templates in the market. It comes with high feature-rich pages and components with fully developer centric code. Before developing Datta Able our key points were performance and design. While developing we have gone through various testing & code optimization process, for making this performance and design-centric backend application.
 
-> Links
-
-- [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap) - product page
-- [Neumorphism UI Docs](https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/)
+With performance, Datta Able rendering is fast in all major browser. It is passed through a good score in Google Page Speed, Pingdom, gtMetrix. Code passed via w3 validators with all w3 standards. This admin panel is fully responsive and tested in all retina devices. Datta Able provides multiple choices of widget, chart icons and many more features support. All come’s with a color combination of pleasant look and feel.
 
 <br />
 
-![Template Jinja2 Theme - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2/master/media/theme-jinja2-screen.png)
+![Jinja DattaAble - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-dattaable-dashboard/master/media/jinja-template-dattaable-dashboard-screen.png)
 
 <br />
 
@@ -34,8 +30,8 @@ All components are perfectly in compliance with the neumorphism design trend mak
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-template-dattaable-dashboard.git
+$ cd jinja-template-dattaable-dashboard
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -124,8 +120,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-template-dattaable-dashboard.git
+$ cd jinja-template-dattaable-dashboard
 ```
 
 > Start the app in Docker
@@ -187,4 +183,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja2 Template](https://theme-jinja2.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
