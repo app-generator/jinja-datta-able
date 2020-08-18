@@ -12,9 +12,14 @@
 
 - [Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/) - LIVE Demo
 
+> Used by
+
+- [Flask Dashboard DattaAble](https://appseed.us/admin-dashboards/flask-dashboard-dattaable) - Free starter coded in Flask
+- [Django Dashboard DattaAble](https://appseed.us/admin-dashboards/django-dashboard-dattaable) - A simple Django starter
+
 <br />
 
-## UI Kit - [DattaAble (Free Version)](https://codedthemes.com/item/datta-able-bootstrap-lite/?ref=appseed)
+## UI Kit - DattaAble (Free Version)
 
 *Vendor Notes* - Datta Able Bootstrap Lite is the most stylised Bootstrap 4 Lite Admin Template, around all other Lite/Free admin templates in the market. It comes with high feature-rich pages and components with fully developer centric code. Before developing Datta Able our key points were performance and design. While developing we have gone through various testing & code optimization process, for making this performance and design-centric backend application.
 
