@@ -1,8 +1,8 @@
-# [Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/)
+# [Jinja Template](https://github.com/app-generator/jinja-template) - DattaAble
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **DattaAble** (Free Version) by **CodedThemes**
+- UI Kit: **DattaAble** (Free Version) by **[CodedThemes](https://appseed.us/agency/codedthemes)**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - **[MIT License](https://github.com/app-generator/license-mit)**
 - Free support via **Github** issues tracker
@@ -184,4 +184,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template - DattaAble](https://jinja-template-dattaable-dashboard.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) DattaAble - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
