@@ -1,30 +1,22 @@
-# [Jinja Template](https://github.com/app-generator/jinja-template) - DattaAble
+# [Jinja Template](https://appseed.us/jinja-template) Datta Able
 
-> Template Theme provided by [AppSeed](https://appseed.us) - Features:
+> Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple starters coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
-- UI Kit: **Datta Able** (Free Version) by **[CodedThemes](https://appseed.us/agency/codedthemes)**
+- UI Kit: **Datta Able** (Free Version) by **CodedThemes**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
-- **[MIT License](https://github.com/app-generator/license-mit)**
-- Free support via **Github** issues tracker
-- Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
+- Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
-- [Jinja Datta Able](https://appseed.us/jinja-template/jinja-datta-able) - product page
-- [Jinja Datta Able Demo](https://jinja-template-dattaable-dashboard.appseed.us/) - LIVE Demo
-- [Jinja Datta Able Docs](https://docs.appseed.us/jinja-template/jinja-datta-able/) - Product documentation
+- [Jinja Datta Able](https://jinja-datta-able.appseed-srv1.com) - starter in action
+- More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
 
-## UI Kit - Datta Able (Free Version)
-
-*Vendor Notes* - Datta Able Bootstrap Lite is the most stylised Bootstrap 4 Lite Admin Template, around all other Lite/Free admin templates in the market. It comes with high feature-rich pages and components with fully developer centric code. Before developing Datta Able our key points were performance and design. While developing we have gone through various testing & code optimization process, for making this performance and design-centric backend application.
-
-With performance, Datta Able rendering is fast in all major browser. It is passed through a good score in Google Page Speed, Pingdom, gtMetrix. Code passed via w3 validators with all w3 standards. This admin panel is fully responsive and tested in all retina devices. Datta Able provides multiple choices of widget, chart icons and many more features support. All come’s with a color combination of pleasant look and feel.
-
-<br />
-
-![Jinja DattaAble - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-dattaable-dashboard/master/media/jinja-template-dattaable-dashboard-intro.gif)
+![Jinja Template - Datta Able, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-datta-able/master/media/jinja-template-dattaable-dashboard-screen.png)
 
 <br />
 
@@ -32,8 +24,8 @@ With performance, Datta Able rendering is fast in all major browser. It is passe
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/jinja-template-dattaable-dashboard.git
-$ cd jinja-template-dattaable-dashboard
+$ git clone https://github.com/app-generator/jinja-datta-able.git
+$ cd jinja-datta-able
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -122,8 +114,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/jinja-template-dattaable-dashboard.git
-$ cd jinja-template-dattaable-dashboard
+$ git clone https://github.com/app-generator/jinja-datta-able.git
+$ cd jinja-datta-able
 ```
 
 > Start the app in Docker
@@ -185,4 +177,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template](https://github.com/app-generator/jinja-template) DattaAble - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) Datta Able - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
