@@ -4,7 +4,7 @@
 ### Improvements
 
 - 🚀 Built with [Datta Able Generator](https://appseed.us/generator/datta-able/) 
-  - Timestamp `__GEN_TS__` 
+  - Timestamp `2022-06-23 17:48` 
 
 ## [1.0.2] 2021-12-08
 ### Improvements
