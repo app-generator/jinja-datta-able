@@ -50,22 +50,27 @@
                     <label>Forms & table</label>
                 </li>
                 <li data-username="form elements advance componant validation masking wizard picker select"
-                    class="nav-item">
+                    class="nav-item {% if 'form_elements' in segment %} active {% endif %}">
                     <a href="/form_elements.html" class="nav-link "><span class="pcoded-micon"><i
                             class="feather icon-file-text"></i></span><span
                             class="pcoded-mtext">Form elements</span></a>
                 </li>
-                <li data-username="Table bootstrap datatable footable" class="nav-item">
+                <li data-username="Table bootstrap datatable footable" 
+                    class="nav-item {% if 'tbl_bootstrap' in segment %} active {% endif %}">
                     <a href="/tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i
                             class="feather icon-server"></i></span><span class="pcoded-mtext">Table</span></a>
                 </li>
                 <li class="nav-item pcoded-menu-caption">
                     <label>Chart & Maps</label>
                 </li>
-                <li data-username="Charts Morris" class="nav-item"><a href="/chart-morris.html" class="nav-link "><span
+                <li data-username="Charts Morris" 
+                    class="nav-item {% if 'chart-morris' in segment %} active {% endif %}">
+                    <a href="/chart-morris.html" class="nav-link "><span
                         class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>
                 </li>
-                <li data-username="Maps Google" class="nav-item"><a href="/map-google.html" class="nav-link "><span
+                <li data-username="Maps Google" 
+                    class="nav-item {% if 'map-google' in segment %} active {% endif %}">
+                    <a href="/map-google.html" class="nav-link "><span
                         class="pcoded-micon"><i class="feather icon-map"></i></span><span
                         class="pcoded-mtext">Maps</span></a></li>
                 <li class="nav-item pcoded-menu-caption">

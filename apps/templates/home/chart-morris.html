@@ -10,6 +10,7 @@
     <!-- [ Main Content ] start -->
     <div class="pcoded-main-container">
         <div class="pcoded-wrapper">
+
             <div class="pcoded-content">
                 <div class="pcoded-inner-content">
                     <!-- [ breadcrumb ] start -->
@@ -112,6 +113,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
     <!-- [ Main Content ] end -->
@@ -122,8 +124,8 @@
 {% block javascripts %}
 
     <!-- chart-morris Js -->
-    <script src="/static/assets/plugins/chart-morris/js/raphael.min.js"></script>
-    <script src="/static/assets/plugins/chart-morris/js/morris.min.js"></script>
-    <script src="/static/assets/js/pages/chart-morris-custom.js"></script>
+    <script src="{{ config.ASSETS_ROOT }}/plugins/chart-morris/js/raphael.min.js"></script>
+    <script src="{{ config.ASSETS_ROOT }}/plugins/chart-morris/js/morris.min.js"></script>
+    <script src="{{ config.ASSETS_ROOT }}/js/pages/chart-morris-custom.js"></script>
 
 {% endblock javascripts %}

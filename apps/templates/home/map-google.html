@@ -10,6 +10,7 @@
     <!-- [ Main Content ] start -->
     <section class="pcoded-main-container">
         <div class="pcoded-wrapper">
+
             <div class="pcoded-content">
                 <div class="pcoded-inner-content">
                     <!-- [ breadcrumb ] start -->
@@ -169,6 +170,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <!-- [ Main Content ] end -->
@@ -181,7 +183,7 @@
     <!-- google-map Js -->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="/static/assets/plugins/google-maps/js/gmaps.js"></script>
-    <script src="/static/assets/js/pages/google-maps.js"></script>
+    <script src="{{ config.ASSETS_ROOT }}/plugins/google-maps/js/gmaps.js"></script>
+    <script src="{{ config.ASSETS_ROOT }}/js/pages/google-maps.js"></script>
 
 {% endblock javascripts %}
