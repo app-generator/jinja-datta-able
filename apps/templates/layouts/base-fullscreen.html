@@ -38,6 +38,12 @@
     
     {% block content %}{% endblock content %}
 
+    <!-- Enable the dark mode -->
+    <label class="d-none">
+        <i class="icon feather icon-sun" id="theme-indicator"></i>
+        <input type="checkbox" id="theme-switch" class="d-none">
+    </label>
+
     {% include 'includes/scripts.html' %}
 
     <!-- Specific Page JS goes HERE  -->
