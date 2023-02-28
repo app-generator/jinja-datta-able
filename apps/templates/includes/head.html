@@ -1,4 +1,4 @@
-{% load static %}
+
 
 <title>Datta Able Free Bootstrap 4 Admin Template</title>
 <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
@@ -18,12 +18,12 @@
 <meta name="author" content="CodedThemes"/>
 
 <!-- Favicon icon -->
-<link rel="icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon">
+<link rel="icon" href="{{ url_for('static', filename ='assets/images/favicon.ico' )}}" type="image/x-icon">
 <!-- fontawesome icon -->
-<link rel="stylesheet" href="{% static 'assets/fonts/fontawesome/css/fontawesome-all.min.css' %}">
+<link rel="stylesheet" href="{{ url_for('static', filename ='assets/fonts/fontawesome/css/fontawesome-all.min.css' )}}">
 <!-- animation css -->
-<link rel="stylesheet" href="{% static 'assets/plugins/animation/css/animate.min.css' %}">
+<link rel="stylesheet" href="{{ url_for('static', filename ='assets/plugins/animation/css/animate.min.css' )}}">
 <!-- vendor css -->
-<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+<link rel="stylesheet" href="{{ url_for('static', filename ='assets/css/style.css' )}}">
 <!-- dark mode css -->
-<link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+<link rel="stylesheet" href="{{ url_for('static', filename ='assets/css/dark.css' )}}">

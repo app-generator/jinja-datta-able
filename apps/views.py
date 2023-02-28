@@ -15,272 +15,101 @@ from apps import app
 @app.route('/')
 def index():
   try:
-    return render_template( 'pages/index.html', segment='analytics', parent='dashboard')
+    return render_template( 'pages/index.html', segment='index', parent='dashboard')
   except TemplateNotFound:
     return render_template('pages/index.html'), 404
 
 
-# Dashboard
-@app.route('/')
-def analytics():
-  return render_template('pages/dashboards/analytics.html', segment='analytics', parent='dashboard')
+# Pages Components
 
-@app.route('/discover/')
-def discover():
-  return render_template('pages/dashboards/discover.html', segment='discover', parent='dashboard')
+@app.route('/pages/components/bc_button/')
+def pages_components_bc_button():
+  return render_template('pages/components/bc_button.html', segment='button', parent='basic_components')
 
-@app.route('/sales/')
-def sales():
-  return render_template('pages/dashboards/sales.html', segment='sales', parent='dashboard')
+@app.route('/pages/components/bc_badges/')
+def pages_components_bc_badges():
+  return render_template('pages/components/bc_badges.html', segment='badges', parent='basic_components')
 
-@app.route('/automotive/')
-def automotive():
-  return render_template('pages/dashboards/automotive.html', segment='automotive', parent='dashboard')
+@app.route('/pages/components/bc_breadcrumb-pagination/')
+def pages_components_bc_breadcrumb_pagination():
+  return render_template('pages/components/bc_breadcrumb-pagination.html', segment='breadcrumbs_&_pagination', parent='basic_components')
 
-@app.route('/smart-home/')
-def smart_home():
-  return render_template('pages/dashboards/smart-home.html', segment='smart_home', parent='dashboard')
+@app.route('/pages/components/bc_collapse/')
+def pages_components_bc_collapse():
+  return render_template('pages/components/bc_collapse.html', segment='collapse', parent='basic_components')
 
+@app.route('/pages/components/bc_tabs/')
+def pages_components_bc_tabs():
+  return render_template('pages/components/bc_tabs.html', segment='navs_&_tabs', parent='basic_components')
 
-# Pages -> Profile
+@app.route('/pages/components/bc_typography/')
+def pages_components_bc_typography():
+  return render_template('pages/components/bc_typography.html', segment='typography', parent='basic_components')
 
-@app.route('/profile-overview/')
-def profile_overview():
-  return render_template('pages/pages/profile/overview.html', parent='pages', sub_parent='profile', segment='profile_overview')
-
-@app.route('/projects/')
-def all_projects():
-  return render_template('pages/pages/profile/projects.html', parent='pages', sub_parent='profile', segment='projects')
-
-@app.route('/messages/')
-def messages():
-  return render_template('pages/pages/profile/messages.html', parent='pages', sub_parent='profile', segment='messages')
-
-
-# Pages -> Users
-@app.route('/reports/')
-def reports():
-  return render_template('pages/pages/users/reports.html', parent='pages', sub_parent='users', segment='reports')
-
-@app.route('/new-user/')
-def new_user():
-  return render_template('pages/pages/users/new-user.html', parent='pages', sub_parent='users', segment='new_user')
-
-
-# Pages -> Accounts
-@app.route('/settings/')
-def settings():
-  return render_template('pages/pages/account/settings.html', parent='pages', sub_parent='accounts', segment='settings')
-
-@app.route('/billing/')
-def billing():
-  return render_template('pages/pages/account/billing.html', parent='pages', sub_parent='accounts', segment='billing')
-
-@app.route('/invoice/')
-def invoice():
-  return render_template('pages/pages/account/invoice.html', parent='pages', sub_parent='accounts', segment='invoice')
-
-@app.route('/security/')
-def security():
-  return render_template('pages/pages/account/security.html', parent='pages', sub_parent='accounts', segment='security')
-
-
-# Pages -> Projects
-@app.route('/general/')
-def general():
-  return render_template('pages/pages/projects/general.html', parent='pages', sub_parent='projects', segment='general')
-
-@app.route('/timeline/')
-def timeline():
-  return render_template('pages/pages/projects/timeline.html', parent='pages', sub_parent='projects', segment='timeline')
-
-@app.route('/new-project/')
-def new_project():
-  return render_template('pages/pages/projects/new-project.html', parent='pages', sub_parent='projects', segment='new_project')
-
-# Pages -> VR
-@app.route('/vr-default/')
-def vr_default():
-  return render_template('pages/pages/vr/vr-default.html', parent='pages', sub_parent='vr', segment='vr_default')
-
-@app.route('/vr-info/')
-def vr_info():
-  return render_template('pages/pages/vr/vr-info.html', parent='pages', sub_parent='vr', segment='vr_info')
+@app.route('/pages/components/icon-feather/')
+def pages_components_icon_feather():
+  return render_template('pages/components/icon-feather.html', segment='feather_icon', parent='basic_components')
 
 # Pages
-@app.route('/rtl/')
-def rtl():
-  return render_template('pages/pages/rtl-page.html', parent='pages', segment='rtl')
 
-@app.route('/pricing/')
-def pricing():
-  return render_template('pages/pages/pricing-page.html', parent='pages', segment='pricing')
+@app.route('/pages/form_elements/')
+def pages_form_elements():
+  return render_template('pages/form_elements.html', segment='form_elements', parent='form_components')
 
-@app.route('/widgets/')
-def widgets():
-  return render_template('pages/pages/widgets.html', parent='pages', segment='widgets')
+@app.route('/pages/tbl_bootstrap/')
+def pages_tbl_bootstrap():
+  return render_template('pages/tbl_bootstrap.html', segment='basic_tables', parent='tables')
 
-@app.route('/charts/')
-def charts():
-  return render_template('pages/pages/charts.html', parent='pages', segment='charts')
+@app.route('/pages/chart-morris/')
+def pages_chart_morris():
+  return render_template('pages/chart-morris.html', segment='morris_chart', parent='chart')
 
-@app.route('/sweet-alerts/')
-def sweet_alerts():
-  return render_template('pages/pages/sweet-alerts.html', parent='pages', segment='sweet_alerts')
+@app.route('/pages/map-google/')
+def pages_map_google():
+  return render_template('pages/map-google.html', segment='google_maps', parent='maps')
 
-@app.route('/notifications/')
-def notifications():
-  return render_template('pages/pages/notifications.html', parent='pages', segment='notifications')
+@app.route('/pages/profile/')
+def pages_profile():
+  return render_template('pages/profile.html', segment='profile', parent='pages')
 
+@app.route('/pages/sample-page/')
+def pages_sample_page():
+  return render_template('pages/sample-page.html', segment='sample_page', parent='pages')
 
-# Applications
-@app.route('/crm/')
-def crm():
-  return render_template('pages/applications/crm.html', parent='applications', segment='crm')
-  
-@app.route('/kanban/')
-def kanban():
-  return render_template('pages/applications/kanban.html', parent='applications', segment='kanban')
+# Accounts
 
-@app.route('/wizard/')
-def wizard():
-  return render_template('pages/applications/wizard.html', parent='applications', segment='wizard')
+@app.route('/accounts/auth-signup/')
+def accounts_auth_signup():
+  return render_template('accounts/auth-signup.html', segment='auth_signup', parent='accounts')
 
-@app.route('/datatables/')
-def datatables():
-  return render_template('pages/applications/datatables.html', parent='applications', segment='datatables')
+@app.route('/accounts/auth-signin/')
+def accounts_auth_signin():
+  return render_template('accounts/auth-signin.html', segment='auth_signin', parent='accounts')
 
-@app.route('/calendar/')
-def calendar():
-  return render_template('pages/applications/calendar.html', parent='applications', segment='calendar')
+@app.route('/accounts/auth-reset-password/')
+def accounts_auth_reset_password():
+  return render_template('accounts/auth-reset-password.html', segment='auth_reset_password', parent='accounts')
 
-@app.route('/stats/')
-def stats():
-  return render_template('pages/applications/stats.html', parent='applications', segment='stats')
+@app.route('/accounts/auth-password-reset-done/')
+def accounts_auth_password_reset_done():
+  return render_template('accounts/auth-password-reset-done.html', segment='auth_password_reset_done', parent='accounts')
 
-# Ecommerce -> Products
-@app.route('/new-product/')
-def new_product():
-  return render_template('pages/ecommerce/products/new-product.html', parent='ecommerce', sub_parent='products', segment='new_product')
+@app.route('/accounts/auth-password-reset-confirm/')
+def accounts_auth_password_reset_confirm():
+  return render_template('accounts/auth-password-reset-confirm.html', segment='auth_password_reset_confirm', parent='accounts')
 
-@app.route('/edit-product/')
-def edit_product():
-  return render_template('pages/ecommerce/products/edit-product.html', parent='ecommerce', sub_parent='products', segment='edit_product')
+@app.route('/accounts/auth-password-reset-complete/')
+def accounts_auth_password_reset_complete():
+  return render_template('accounts/auth-password-reset-complete.html', segment='auth_password_reset_complete', parent='accounts')
 
-@app.route('/product-page/')
-def product_page():
-  return render_template('pages/ecommerce/products/product-page.html', parent='ecommerce', sub_parent='products', segment='product_page')
+@app.route('/accounts/auth-change-password/')
+def accounts_auth_change_password():
+  return render_template('accounts/auth-change-password.html', segment='auth_change_password', parent='accounts')
 
-@app.route('/products-list/')
-def products_list():
-  return render_template('pages/ecommerce/products/products-list.html', parent='ecommerce', sub_parent='products', segment='products_list')
+@app.route('/accounts/auth-password-change-done/')
+def accounts_auth_password_change_done():
+  return render_template('accounts/auth-password-change-done.html', segment='auth_password_change_done', parent='accounts')
 
-# Ecommerce -> Orders
-@app.route('/order-list/')
-def order_list():
-  return render_template('pages/ecommerce/orders/list.html', parent='ecommerce', sub_parent='orders', segment='order_list')
-
-@app.route('/order-details/')
-def order_details():
-  return render_template('pages/ecommerce/orders/details.html', parent='ecommerce', sub_parent='orders', segment='order_details')
-
-# Ecommerce -> Referral
-@app.route('/referral/')
-def referral():
-  return render_template('pages/ecommerce/referral.html', parent='ecommerce', segment='referral')
-
-
-# Authentication -> Login
-@app.route('/accounts/basic-login/')
-def basic_login():
-  return render_template('accounts/signin/basic.html')
-
-@app.route('/accounts/cover-login/')
-def cover_login():
-  return render_template('accounts/signin/cover.html')
-
-@app.route('/accounts/illustration-login/')
-def illustration_login():
-  return render_template('accounts/signin/illustration.html')
-
-
-# Authentication -> Register
-@app.route('/accounts/basic-register/')
-def basic_register():
-  return render_template('accounts/signup/basic.html')
-
-@app.route('/accounts/cover-register/')
-def cover_register():
-  return render_template('accounts/signup/cover.html')
-
-@app.route('/accounts/illustration-register/')
-def illustration_register():
-  return render_template('accounts/signup/illustration.html')
-
-# Authentication -> Lock
-@app.route('/accounts/basic-lock/')
-def basic_lock():
-  return render_template('accounts/lock/basic.html')
-
-@app.route('/accounts/cover-lock/')
-def cover_lock():
-  return render_template('accounts/lock/cover.html')
-
-@app.route('/accounts/illustration-lock/')
-def illustration_lock():
-  return render_template('accounts/lock/illustration.html')
-
-# Authentication -> Reset
-@app.route('/accounts/basic-reset/')
-def basic_reset():
-  return render_template('accounts/reset/basic.html')
-
-@app.route('/accounts/cover-reset/')
-def cover_reset():
-  return render_template('accounts/reset/cover.html')
-
-@app.route('/accounts/illustration-reset/')
-def illustration_reset():
-  return render_template('accounts/reset/illustration.html')
-
-
-# Authentication -> 
-@app.route('/accounts/basic-verification/')
-def basic_verification():
-  return render_template('accounts/verification/basic.html')
-
-@app.route('/accounts/cover-verification/')
-def cover_verification():
-  return render_template('accounts/verification/cover.html')
-
-@app.route('/accounts/illustration-verification/')
-def illustration_verification():
-  return render_template('accounts/verification/illustration.html')
-
-# Error
-@app.route('/error/404/')
-def error_404():
-  return render_template('accounts/error/404.html')
-
-@app.route('/error/500/')
-def error_500():
-  return render_template('accounts/error/500.html')
-
-def logout_view():
-  return redirect('/accounts/basic-login/')
-
-
-
-def get_segment( request ): 
-  try:
-    segment = request.path.split('/')[-1]
-    if segment == '':
-      segment = 'index'
-    return segment    
-  except:
-    return None  
-
-# Custom Filter
-@app.template_filter('replace_value')
+@app.template_filter(name = 'replace_value')
 def replace_value(value, arg):
   return value.replace(arg, ' ').title()

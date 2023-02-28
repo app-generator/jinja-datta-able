@@ -1,5 +1,5 @@
 {% extends 'layouts/base.html' %}
-{% load static %}
+
 
 {% block breadcrumbs %}{% endblock breadcrumbs %}
 
@@ -88,7 +88,7 @@
             <table class="table table-hover">
               <tbody>
                 <tr class="unread">
-                  <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-1.jpg' %}"
+                  <td><img class="rounded-circle" style="width:40px;" src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}"
                       alt="activity-user">
                   </td>
                   <td>
@@ -104,7 +104,7 @@
                   </td>
                 </tr>
                 <tr class="unread">
-                  <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
+                  <td><img class="rounded-circle" style="width:40px;" src="{{ url_for('static', filename ='assets/images/user/avatar-2.jpg' )}}"
                       alt="activity-user">
                   </td>
                   <td>
@@ -120,7 +120,7 @@
                   </td>
                 </tr>
                 <tr class="unread">
-                  <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-3.jpg' %}"
+                  <td><img class="rounded-circle" style="width:40px;" src="{{ url_for('static', filename ='assets/images/user/avatar-3.jpg' )}}"
                       alt="activity-user">
                   </td>
                   <td>
@@ -136,7 +136,7 @@
                   </td>
                 </tr>
                 <tr class="unread">
-                  <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-1.jpg' %}"
+                  <td><img class="rounded-circle" style="width:40px;" src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}"
                       alt="activity-user">
                   </td>
                   <td>
@@ -153,7 +153,7 @@
                   </td>
                 </tr>
                 <tr class="unread">
-                  <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
+                  <td><img class="rounded-circle" style="width:40px;" src="{{ url_for('static', filename ='assets/images/user/avatar-2.jpg' )}}"
                       alt="activity-user">
                   </td>
                   <td>
@@ -421,7 +421,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
@@ -439,7 +439,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-2.jpg' %}" alt="activity-user">Albert Andersen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-2.jpg' )}}" alt="activity-user">Albert Andersen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Jumps over the lazy</h6>
@@ -457,7 +457,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-3.jpg' %}" alt="activity-user">Silje Larsen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-3.jpg' )}}" alt="activity-user">Silje Larsen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Dog the quick brown</h6>
@@ -474,7 +474,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
@@ -507,7 +507,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-2.jpg' %}" alt="activity-user">Albert Andersen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-2.jpg' )}}" alt="activity-user">Albert Andersen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Jumps over the lazy</h6>
@@ -524,7 +524,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
@@ -541,7 +541,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
@@ -558,7 +558,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-3.jpg' %}" alt="activity-user">Silje Larsen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-3.jpg' )}}" alt="activity-user">Silje Larsen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Dog the quick brown</h6>
@@ -591,7 +591,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-3.jpg' %}" alt="activity-user">Silje Larsen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-3.jpg' )}}" alt="activity-user">Silje Larsen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Dog the quick brown</h6>
@@ -608,7 +608,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
@@ -625,7 +625,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-2.jpg' %}" alt="activity-user">Albert Andersen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-2.jpg' )}}" alt="activity-user">Albert Andersen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">Jumps over the lazy</h6>
@@ -642,7 +642,7 @@
               <tr>
                 <td>
                   <h6 class="m-0"><img class="rounded-circle  m-r-10" style="width:40px;"
-                      src="{% static 'assets/images/user/avatar-1.jpg' %}" alt="activity-user">Ida Jorgensen</h6>
+                      src="{{ url_for('static', filename ='assets/images/user/avatar-1.jpg' )}}" alt="activity-user">Ida Jorgensen</h6>
                 </td>
                 <td>
                   <h6 class="m-0">The quick brown fox</h6>
