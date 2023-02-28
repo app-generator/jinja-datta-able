@@ -1,9 +1,9 @@
 {% extends 'layouts/base.html' %}
-{% load static %}
+
 
 {% block extrastyle %}
   <!-- morris css -->
-  <link rel="stylesheet" href="{% static 'assets/plugins/chart-morris/css/morris.css' %}">
+  <link rel="stylesheet" href="{{ url_for('static', filename ='assets/plugins/chart-morris/css/morris.css' )}}">
 {% endblock extrastyle %}
 
 {% block content %}
@@ -90,8 +90,8 @@
 {% block extra_js %}
 
   <!-- chart-morris Js -->
-  <script src="{% static 'assets/plugins/chart-morris/js/raphael.min.js' %}"></script>
-  <script src="{% static 'assets/plugins/chart-morris/js/morris.min.js' %}"></script>
-  <script src="{% static 'assets/js/pages/chart-morris-custom.js' %}"></script>
+  <script src="{{ url_for('static', filename ='assets/plugins/chart-morris/js/raphael.min.js' )}}"></script>
+  <script src="{{ url_for('static', filename ='assets/plugins/chart-morris/js/morris.min.js' )}}"></script>
+  <script src="{{ url_for('static', filename ='assets/js/pages/chart-morris-custom.js' )}}"></script>
 
 {% endblock extra_js %}
