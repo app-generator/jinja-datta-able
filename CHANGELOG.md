@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.6] 2025-03-05
+### Changes
+
+- RM, update Links for [App-Generator](https://app-generator.dev/)
+  - 👉 [Datta Able Flask](https://app-generator.dev/product/datta-able/flask/) - Product page
+  - 🛒 **[Datta Able Flask PRO](https://app-generator.dev/product/datta-able-pro/flask/)** - `Premium Version`
+
 ## [1.0.5] 2023-02-28
 ### Changes
 
